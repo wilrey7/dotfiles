@@ -24,3 +24,11 @@ style = "Bold"
 [colors.primary]
 background = "#282a36"
 foreground = "#f8f8f2"
+
+[terminal]
+
+
+# --- PAKSA PAKE ZSH ---
+[terminal.shell]
+program = "/usr/bin/zsh"
+args = ["-l"]
