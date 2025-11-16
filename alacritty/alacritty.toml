@@ -1,0 +1,26 @@
+# --- JENDELA (BIAR TRANSPARAN) ---
+[window]
+opacity = 0.85  # Ubah angka ini (0.0 - 1.0). 0.85 itu pas, agak tembus pandang tapi teks tetep jelas.
+padding = { x = 10, y = 10 } # Biar teks gak nempel pinggir banget.
+dynamic_padding = true
+# decorations = "None" # Biar gak ada title bar jelek di atasnya.
+
+# --- FONT (PENTING BUAT ESTETIK) ---
+# Kalo lo belum punya font keren, dia bakal pake default.
+# Nanti kita install Nerd Fonts biar makin cakep.
+[font]
+size = 10.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+# --- WARNA (TEMA "DRACULA" YANG POPULER) ---
+# Lo bisa ganti ini nanti pake tema lain.
+[colors.primary]
+background = "#282a36"
+foreground = "#f8f8f2"
