@@ -232,3 +232,7 @@ bindsym Print exec flameshot gui
 
 # Shift + PrintScreen = Langsung jepret semua layar (masuk folder Pictures)
 bindsym Shift+Print exec flameshot full -p ~/Pictures/Screenshots
+
+
+# --- JALANKAN TUKANG POLES (PICOM) ---
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
