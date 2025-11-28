@@ -236,3 +236,20 @@ bindsym Shift+Print exec flameshot full -p ~/Pictures/Screenshots
 
 # --- JALANKAN TUKANG POLES (PICOM) ---
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+
+
+# --- ZOOM TUNING (LAYOUT PINTER) ---
+
+# 1. Paksa TILING buat Jendela Utama & Ruang Meeting
+# (Tanda ^ artinya "diawali", tanda $ artinya "diakhiri". Jadi harus pas namanya)
+for_window [class="zoom" title="^Zoom$"] floating disable
+for_window [class="zoom" title="^Zoom Meeting$"] floating disable
+
+# 2. Paksa FLOATING buat Jendela "Printilan"
+# (Settings, Chat, Participants, Join Audio, dll)
+for_window [class="zoom" title="^(Settings|Chat|Participants|Join Audio|.*Preferences.*)$"] floating enable
+
+# 3. Jurus Sapu Jagat: Kalo tipe jendelanya "Dialog" atau "Utility", bikin floating!
+# Ini bakal nangkep jendela popup kecil yang mungkin gak kedaftar di atas (kayak error message, login, dll)
+for_window [class="zoom" window_type="dialog"] floating enable
+for_window [class="zoom" window_type="utility"] floating enable

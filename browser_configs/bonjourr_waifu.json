@@ -1,0 +1,145 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "21.2.1"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "",
+  "greetingsize": "3",
+  "pagegap": 1,
+  "pagewidth": 1600,
+  "time": true,
+  "main": false,
+  "dateformat": "eu",
+  "quicklinks": false,
+  "textShadow": 0.2,
+  "announcements": "major",
+  "review": 25,
+  "css": "",
+  "hide": {},
+  "linkstyle": "medium",
+  "linktitles": true,
+  "linkbackgrounds": true,
+  "linknewtab": false,
+  "linksrow": 6,
+  "linkgroups": {
+    "on": false,
+    "selected": "default",
+    "groups": [
+      "default"
+    ],
+    "pinned": [],
+    "synced": []
+  },
+  "backgrounds": {
+    "type": "files",
+    "fadein": 600,
+    "blur": 0,
+    "bright": 0.8,
+    "frequency": "hour",
+    "color": "#185A63",
+    "urls": "",
+    "images": "bonjourr-images-daylight",
+    "videos": "bonjourr-videos-daylight",
+    "queries": {},
+    "texture": {
+      "type": "none"
+    }
+  },
+  "clock": {
+    "size": 1,
+    "ampm": false,
+    "analog": false,
+    "seconds": false,
+    "ampmlabel": false,
+    "worldclocks": false,
+    "timezone": "auto"
+  },
+  "worldclocks": [],
+  "analogstyle": {
+    "face": "none",
+    "hands": "modern",
+    "shape": "round",
+    "border": "#ffff",
+    "background": "#fff2"
+  },
+  "weather": {
+    "city": "kayuringin-jaya",
+    "unit": "metric",
+    "provider": "",
+    "moreinfo": "none",
+    "forecast": "auto",
+    "temperature": "actual",
+    "geolocation": "approximate"
+  },
+  "notes": {
+    "on": false,
+    "background": "#fff0",
+    "width": 20,
+    "opacity": 0.1,
+    "align": "left",
+    "text": "\n\nmock-selection"
+  },
+  "searchbar": {
+    "on": false,
+    "opacity": 0.1,
+    "newtab": false,
+    "suggestions": true,
+    "engine": "default",
+    "request": "",
+    "placeholder": ""
+  },
+  "quotes": {
+    "on": true,
+    "type": "user",
+    "frequency": "pause",
+    "author": true,
+    "last": 1764320808754,
+    "userlist": "~ 鹿乃 ♡, \"Semangat yaa hari inii :D\""
+  },
+  "font": {
+    "size": "14",
+    "family": "",
+    "system": true,
+    "weightlist": [],
+    "weight": "700"
+  },
+  "supporters": {
+    "enabled": true,
+    "closed": false,
+    "month": 11
+  },
+  "move": {
+    "selection": "single",
+    "layouts": {
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {
+          "time": {
+            "text": "center",
+            "box": "baseline center"
+          },
+          "notes": {
+            "text": "left",
+            "box": "end"
+          },
+          "quotes": {
+            "text": "left",
+            "box": "end baseline"
+          }
+        }
+      }
+    }
+  }
+}
